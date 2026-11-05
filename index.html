@@ -462,6 +462,11 @@ function renderResults(r, info){
         '<div style="margin-top:3px">'+esc(q.ees)+'<br><span class="en">'+esc(q.een)+'</span></div></div>'; });
     h+='</details></div>';
   }
+  // more practice (external)
+  h+='<div class="card noprint"><h3>Más práctica AFQT <span class="en">/ More AFQT practice</span></h3>'+
+    '<p><a href="https://www.missionasvab.org/" target="_blank" rel="noopener"><b>Mission ASVAB</b></a>: herramienta externa y gratis (no es oficial ni del Army). Empieza con el <b>Diagnostic</b> (~20 min) o el <b>AFQT Predictor</b> (~25 min). Explica cada pregunta paso a paso; usa el tutor mode por sección para practicar sin tiempo.<br><span class="en">Free outside tool (not official, not Army). Start with the Diagnostic (~20 min) or AFQT Predictor (~25 min). Step-by-step explanations; untimed tutor mode by section.</span></p>'+
+    '<p><b>Ojo:</b> Mission ASVAB no incluye Assembling Objects (AO). Si tu plan incluye AO (FLRI/09C), usa el PDF de práctica y los quizzes de SFC Mendez.<br><span class="en">Note: Mission ASVAB has no Assembling Objects (AO). If your plan includes AO (FLRI/09C), use SFC Mendez\'s practice PDF and quizzes.</span></p>'+
+    '<p class="small"><b>Hábito clave:</b> rehaz cada pregunta que fallaste hasta que puedas explicar por qué. <span class="en">Key habit: redo every missed question until you can explain why.</span></p></div>';
   // send box
   h+='<div class="card noprint"><h2>Enviar a SFC Mendez <span class="en">/ Send to SFC Mendez</span></h2><div class="status" id="sendStatus"></div>'+
     '<a class="btn wa block" id="waBtn" target="_blank" rel="noopener">Enviar mis resultados por WhatsApp</a><div class="en small" style="text-align:center">Send my results on WhatsApp</div>'+
